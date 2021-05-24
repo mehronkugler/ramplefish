@@ -74,12 +74,6 @@ The preset information is POSTed to Rally as a job via API. If no response is gi
 
 Since jobs are one-offs, the runner only needs to poll one endpoint.
 
-# Unit tests for the code in this repo
-Run tests with `nose2`.
-
-
-`requests_mock` is used in order to avoid making real API calls to the server, which makes testing useful during downtime and avoids writing to Rally's DB.
-
 # Rally test runner output
 
 ## Example output for a set of presets
