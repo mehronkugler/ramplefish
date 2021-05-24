@@ -1,0 +1,20 @@
+{
+    "env_hostname": "your-company-dev.sdvi.com",
+    "default_test_asset": "194228_007_US",
+    "api_key": "<your super secret API key>",
+    "tests": [
+        {
+            "name": "Sample Test Preset",
+            "asset": "",
+            "enabled": true
+        },
+        {
+            "name": "Sample Test Preset",
+            "asset": "",
+            "dynamicPresetData": {
+                "foo": "bar"
+            },
+            "enabled": true
+        }
+    ]
+}
